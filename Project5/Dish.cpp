@@ -14,7 +14,7 @@
 
 using namespace std;
 
-Dish::Dish(){
+Dish::Dish(String name, String ing1, String ing2, String ing3){
 	string ingredients[] = {'food','foody','foodies'};
 }
 
