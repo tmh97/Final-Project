@@ -14,8 +14,9 @@
 
 using namespace std;
 
-Dish::Dish(String name, String ing1, String ing2, String ing3){
-	string ingredients[] = {'food','foody','foodies'};
+Dish::Dish(string name, string ing1, string ing2, string ing3){
+	this->name = name;
+	this->ingredients = [ing1, ing2, ing3];
 }
 
 void Dish::mergeSort(int low, int high){
